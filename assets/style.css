@@ -18,6 +18,9 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -34,12 +37,20 @@ header {
     color: #333;
   }
   .question{
+    color: purple;
     font-weight: 600;
     text-align: center;
+    padding: 8px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .answers {
       margin-bottom: 20px;
       text-align: center;
+      padding: 8px;
+      margin: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   }
   #submit{
     font-family: sans-serif;
