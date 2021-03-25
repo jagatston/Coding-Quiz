@@ -1,9 +1,9 @@
 // timer
-var timeleft = 50;
+var timeleft = 5;
 var downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);
-    document.getElementById("countdown").innerHTML = "Time is up!";
+    document.getElementById("countdown").innerHTML = "Start the quiz!";
   } else {
     document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
   }
